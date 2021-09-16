@@ -8,11 +8,13 @@ from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm Song Downloader Bot Made by @IMkashyapaa🎵
+
 😉 Just send me the song name you want to download.😋
-      eg:```/song how you like that```
-Main supporter @Kmsrk     
-A bot by @IMkashyapaa
+      eg:```/song Kill this love```
+
+👻Main supporter @Kmsrk     
+🤖A bot by @IMkashyapaa
 """
 
 @app.on_message(filters.command("start"))
