@@ -7,10 +7,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
-pm_start_text = """
+pm_start_text = """ https://telegra.ph/file/73422b014dca50b1023e6.jpg
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot Made by @IMkashyapaa🎵
 
-😉 Just send me the song name you want to download.😋
+🎶🎧 Just send me the song name you want to download.😋
       eg:```/song Kill this love```
 
 👻Main supporter @Kmsrk     
@@ -27,7 +27,7 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Our Channel🥳", url="https://t.me/cgs_official"
+                        text="Our Channel🎧", url="https://t.me/cgs_official"
                     ),
                     InlineKeyboardButton(
                         text="Contact me🔥", url="https://telegram.me/IMkashyapaa"
