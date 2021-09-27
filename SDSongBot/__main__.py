@@ -27,7 +27,7 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Our Channel🎧", url="https://t.me/cgs_official"
+                        text="My logo 🎧", url="https://telegra.ph/file/73422b014dca50b1023e6.jpg"
                     ),
                     InlineKeyboardButton(
                         text="Contact me🔥", url="https://telegram.me/IMkashyapaa"
