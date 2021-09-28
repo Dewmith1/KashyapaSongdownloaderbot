@@ -8,7 +8,7 @@ from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
 pm_start_text = """ 
- Hey [{}](tg://user?id={}), I'm Song Downloader Bot Made by @IMkashyapaa🎵
+https://telegra.ph/file/73422b014dca50b1023e6.jpg  Hey [{}](tg://user?id={}), I'm Song Downloader Bot Made by @IMkashyapaa🎵
 
 🎶🎧 Just send me the song name you want to download.😋
       eg:```/song Kill this love```
