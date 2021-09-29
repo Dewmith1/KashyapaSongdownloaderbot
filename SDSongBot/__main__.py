@@ -1,4 +1,4 @@
-#CgsOfficialBOTs <https://t.me/cgs_official>
+#SDBOTs <https://t.me/SDBOTs_Inifinity>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from SDSongBot.plugins import *
@@ -7,16 +7,12 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
-pm_start_text = """ 
- Hey [{}](tg://user?id={}), I'm Powerful Song Downloader Bot Made by @IMkashyapaa🎵
-
-
-🎶🎧 *Just send me the song name you want to download.*
-      eg:```/song pretty savage black pink 🖤 ```
-
-
-🎵Main supporter @Kmsrk
-🎧A bot by @IMkashyapaa
+pm_start_text = """
+Hey [{}](tg://user?id={}), I'm powerful Song Downloader Bot 🎵
+🎧 Just send me the song name you want to download.🎧
+      eg:```/song Pretty savage black pink 🖤 ```
+      
+A bot by @IMkashyapaa
 """
 
 @app.on_message(filters.command("start"))
@@ -29,15 +25,12 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="⚒️🎙️Add me to your group🎙️⚒️", url=""f"https://t.me/{BOT_USERNAME}?startgroup=true")],"
+                        text="Dev🎵", url="https://t.me/IMkashyapaa"
                     ),
                     InlineKeyboardButton(
-                        text="Dev🔥", url="https://telegram.me/IMkashyapaa"
+                        text="⚒️🎙️share my bot🎙️⚒️", url="https://t.me/share/url?url=t.me/Kashyapasgdlbot"
                     )
-
-                    )
-                 
-                )
+                ]
             ]
         )
     else:
@@ -46,5 +39,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ CgsOfficialBOTs is online.")
+LOGGER.info("✅ KashyapaSongBot is online.")
 idle()
