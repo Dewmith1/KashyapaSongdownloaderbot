@@ -34,7 +34,10 @@ async def start(client, message):
                     InlineKeyboardButton(
                         text="Dev🔥", url="https://telegram.me/IMkashyapaa"
                     )
-                ]
+                     InlineKeyboardButton(
+                        text="⚒️🎙️Add me to your group🎙️⚒️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],"
+                    )
+                )
             ]
         )
     else:
