@@ -29,14 +29,14 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="🤍", url="https://telegra.ph/file/73422b014dca50b1023e6.jpg"
+                        text="⚒️🎙️Add me to your group🎙️⚒️", url=""f"https://t.me/{BOT_USERNAME}?startgroup=true")],"
                     ),
                     InlineKeyboardButton(
                         text="Dev🔥", url="https://telegram.me/IMkashyapaa"
                     )
-                     InlineKeyboardButton(
-                        text="⚒️🎙️Add me to your group🎙️⚒️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],"
+
                     )
+                 
                 )
             ]
         )
