@@ -8,13 +8,15 @@ from SDSongBot import SDbot as app
 from SDSongBot import LOGGER
 
 pm_start_text = """ 
- Hey [{}](tg://user?id={}), ~I'm Advanced Song Downloader Bot Made by @IMkashyapaa🎵~
+ Hey [{}](tg://user?id={}), I'm Powerful Song Downloader Bot Made by @IMkashyapaa🎵
+
 
 🎶🎧 *Just send me the song name you want to download.*
       eg:```/song pretty savage black pink 🖤 ```
 
-😽Main supporter @Kmsrk     
-🤖A bot by @IMkashyapaa
+
+🎵Main supporter @Kmsrk
+🎧A bot by @IMkashyapaa
 """
 
 @app.on_message(filters.command("start"))
@@ -27,7 +29,7 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text=" 🎧", url="https://telegra.ph/file/73422b014dca50b1023e6.jpg"
+                        text="🤍", url="https://telegra.ph/file/73422b014dca50b1023e6.jpg"
                     ),
                     InlineKeyboardButton(
                         text="Dev🔥", url="https://telegram.me/IMkashyapaa"
