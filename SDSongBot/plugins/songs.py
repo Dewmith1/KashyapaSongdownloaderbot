@@ -30,7 +30,7 @@ def song(client, message):
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
-        link = f"https://m.youtube.com{results[0]['url_suffix']}"
+        link = f"https://youtube.com{results[0]['url_suffix']}"
         #print(results)
         title = results[0]["title"][:40]       
         thumbnail = results[0]["thumbnails"][0]
