@@ -30,7 +30,7 @@ async def start(client, message):
                         text="𝐃𝐞𝐯🎵", url="https://t.me/IMkashyapaa"
                     ),
                     InlineKeyboardButton(
-                        text="🎙️𝐒𝐡𝐚𝐫𝐞 𝐦𝐲 𝐛𝐨𝐭🎙️", url="https://t.me/share/url?url=t.me/Kashyapasgdlbot"
+                        text="🎙𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩🎙️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                     )
                 ]
             ]
