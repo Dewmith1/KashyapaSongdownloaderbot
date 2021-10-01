@@ -12,7 +12,7 @@ pm_start_text = """
 
 🎧 Just send me the song name you want to download.🎧
 
-      eg:```/song Pretty savage black pink 🖤 ```
+      eg:```/so Pretty savage black pink 🖤 ```
       
 A bot by @IMkashyapaa
 """
